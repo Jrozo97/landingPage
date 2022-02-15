@@ -1,7 +1,10 @@
 import React from "react";
+import Container from "./Appbar";
 
 export default function App() {
   return (
-  <h1>Hello React!</h1>
+    <>
+      <Container />
+    </>
   );
 }
